@@ -72,7 +72,7 @@ The G2P tool have no instalation and work as a single file portable version, jus
 
 ### Prerequisites
 
-Nonninstall
+None
 
 
 
@@ -90,7 +90,7 @@ The is no need for headers but they can be added
 
 The lexicon must be in CSV format
 
-###Converting
+### Converting
 First load the Lexicon in CSV format and the text file for conversion
 Once both are loaded a "Save" button will appear
 Save the converted file
@@ -102,14 +102,10 @@ Save the converted file
 <!-- CONTRIBUTING -->
 ## Authers & Contributers
 
-*Dr. Silber-Varod Vered
+* Dr. Silber-Varod Vered
+* Amit Dafna
+* Carmi Nehoray
 
-*Amit Dafna
-
-*Carmi Nehoray
-* Python 3.6
-* tkinter
-* PIL
 
 <!-- LICENSE -->
 ## License
