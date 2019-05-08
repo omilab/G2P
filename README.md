@@ -13,12 +13,12 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/omilab/G2P/tree/master/Img">
+  <a href="https://github.com/omilab/G2P/master/Img">
     <img src="Logo.png" alt="Logo" width="180" height="180">
   </a>
   
   <p align="center">
-     <a href="https://github.com/omilab/G2P/tree/master/Img">
+     <a href="https://github.com/omilab/G2P/master/Img">
     <img src="ganan.PNG" alt="Ganan" width="240" height="120">
   </a>
   </p>
