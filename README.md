@@ -27,7 +27,7 @@
   <p align="center">
     Grapheme to phoneme converter - Python GUI
     <br />
-    <a href="https://drive.google.com/open?id=1Y5u8xfDDkP7rizKRLuVtHm2YuOIHpp_w"><strong>Current Version »</strong></a>
+    <a href="https://drive.google.com/open?id=1Y5u8xfDDkP7rizKRLuVtHm2YuOIHpp_w"><strong>Download Current Version »</strong></a>
     <br />
     <br />
   </p>
