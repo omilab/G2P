@@ -5,7 +5,7 @@ from tkinter import messagebox as tkMessageBox
 from PIL import ImageTk, Image
 
 root = Tk()
-root.title("Save and Load")
+root.title("G2P")
 root.geometry("500x600-400+50")
 
 inputfile=""
@@ -14,8 +14,18 @@ textfile=""
 
 mydict=dict()
 
-def loadLex():
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
     try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
+
+def loadLex():
+    # try:
         filenames = askopenfilenames()
         global file
         for file in filenames:
@@ -32,11 +42,11 @@ def loadLex():
                 else:
                     LReadyv.set("Pending proccess...")
                     saveButton.pack_forget()
-    except:
-        Llexiconv.set("Missing lexicon file")
-        saveButton.pack_forget()
-        LReadyv.set("Pending proccess...")
-        pass
+    # except:
+    #     Llexiconv.set("Missing lexicon file")
+    #     saveButton.pack_forget()
+    #     LReadyv.set("Pending proccess...")
+    #     pass
 
 def importFiles():
     try:
@@ -69,7 +79,7 @@ def saveFile():
             w.config(state=DISABLED)
 
         f = asksaveasfile(mode='w',title="Choose transcription file", defaultextension=".txt")
-        f2=f= open("log.txt","w+")
+        #f2=f= open("log.txt","w+")
         if f is None:  # asksaveasfile return `None` if dialog closed with "cancel".
             return
 
@@ -81,12 +91,12 @@ def saveFile():
                 transcriptions = [mydict[word] for word in words if word in mydict]
                 line_transcription = ' '.join(transcriptions)
                 print(line_transcription)
-                f2.write(line.encode("UTF-8"))
-                f2.write(line_transcription)
+         #       f2.write(line.encode("UTF-8"))
+
                 f.write(line_transcription)
                 f.write('\n')
         f.close()
-        f2.close()
+
 
         for w in (saveButton,lexButton,textButton):
             w.config(state=NORMAL)
@@ -138,11 +148,11 @@ saveButton = Button(buttonFrame, text="Save", command=saveFile)
 saveButton.pack(side=LEFT)
 saveButton.pack_forget()
 
-img = ImageTk.PhotoImage(Image.open("Logo.png"))
+img = ImageTk.PhotoImage(Image.open(resource_path("src/Logo.png")))
 panel = Label(root, image = img)
 panel.pack(side = "bottom", fill = "both", expand = "yes")
 
-img2 = ImageTk.PhotoImage(Image.open("ganan.png"))
+img2 = ImageTk.PhotoImage(Image.open(resource_path("src/ganan.png")))
 panel2 = Label(root, image = img2)
 panel2.pack(side = "bottom", fill = "both", expand = "yes")
 
