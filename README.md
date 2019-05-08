@@ -14,12 +14,12 @@
 <br />
 <p align="center">
   <a href="https://github.com/omilab/G2P/master/Img">
-    <img src="Logo.png" alt="Logo" width="180" height="180">
+    <img src="https://raw.githubusercontent.com/omilab/G2P/master/Img/Logo.png" alt="Logo" width="180" height="180">
   </a>
   
   <p align="center">
      <a href="https://github.com/omilab/G2P/master/Img">
-    <img src="ganan.PNG" alt="Ganan" width="240" height="120">
+    <img src="https://raw.githubusercontent.com/omilab/G2P/master/Img/ganan.PNG" alt="Ganan" width="240" height="120">
   </a>
   </p>
   <h3 align="center">G2P</h3>
