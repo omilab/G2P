@@ -13,12 +13,12 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/omilab/G2P/master/Img">
+  <a href="https://github.com/omilab/G2P/">
     <img src="https://raw.githubusercontent.com/omilab/G2P/master/Img/Logo.png" alt="Logo" width="180" height="180">
   </a>
   
   <p align="center">
-     <a href="https://github.com/omilab/G2P/master/Img">
+     <a href="https://drive.google.com/open?id=1Y5u8xfDDkP7rizKRLuVtHm2YuOIHpp_w">
     <img src="https://raw.githubusercontent.com/omilab/G2P/master/Img/ganan.PNG" alt="Ganan" width="240" height="120">
   </a>
   </p>
@@ -27,7 +27,7 @@
   <p align="center">
     Grapheme to phoneme converter - Python GUI
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Current Version »</strong></a>
+    <a href="https://drive.google.com/open?id=1Y5u8xfDDkP7rizKRLuVtHm2YuOIHpp_w"><strong>Current Version »</strong></a>
     <br />
     <br />
   </p>
