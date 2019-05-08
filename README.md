@@ -14,10 +14,10 @@ Grapheme to phoneme converter - Python GUI
 <br />
 <p align="center">
   <a href="https://github.com/omilab/G2P">
-    <img src="Logo.png" alt="Logo" width="80" height="80">
+    <img src="Logo.png" alt="Logo" width="180" height="180">
   </a>
   <a href="https://github.com/omilab/G2P">
-    <img src="ganan.png" alt="Logo" width="80" height="80">
+    <img src="ganan.PNG" alt="Ganan" width="80" height="80">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
