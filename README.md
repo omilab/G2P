@@ -42,12 +42,11 @@
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+
 
 
 
@@ -79,10 +78,24 @@ Nonninstall
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+### Lexicon
+The Lexicon structure is as follows
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+| Phoneme       | Grapheme      |
+| ------------- | ------------- |
+| 0             | Efes          |
+| את            | et            |
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+The is no need for headers but they can be added
+
+The lexicon must be in CSV format
+
+###Converting
+First load the Lexicon in CSV format and the text file for conversion
+Once both are loaded a "Save" button will appear
+Save the converted file
+
+
 
 
 
@@ -90,9 +103,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Authers & Contributers
 
 *Dr. Silber-Varod Vered
-*Amit Dafna
-*Carmi Nehoray
 
+*Amit Dafna
+
+*Carmi Nehoray
+* Python 3.6
+* tkinter
+* PIL
 
 <!-- LICENSE -->
 ## License
