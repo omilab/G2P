@@ -25,7 +25,7 @@
   <h3 align="center">G2P</h3>
 
   <p align="center">
-    Grapheme to phoneme converter - Python GUI
+    Grapheme to phoneme Dummy converter - Python GUI
     <br />
     <a href="https://drive.google.com/open?id=1Y5u8xfDDkP7rizKRLuVtHm2YuOIHpp_w"><strong>Download Current Version »</strong></a>
     <br />
@@ -55,12 +55,12 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-The Grapheme to phoneme converter tool is a Graphical user interface (GUI) for a script develpoed in The Open Media and Information Lab (OMILab). The tool convert a given text to it's grapheme represintation based on the supplied lexicon.
+The Grapheme to phoneme dummy converter tool is a Graphical user interface (GUI) for a script develpoed in The Open Media and Information Lab (OMILab). The tool convert a given ortographic text to it's phonemic represintation based on a given lexicon.
+This converter can be used for any Source to Target representations.
 
 ### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * Python 3.6
-* tkinter
+* TKinter
 * PIL
 
 
@@ -68,7 +68,7 @@ This section should list any major frameworks that you built your project using.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-The G2P tool have no instalation and work as a single file portable version, just donwload the Lastet version and run
+The G2P tool have no installation and work as a single file portable version, just download the latest version and run.
 
 ### Prerequisites
 
@@ -81,19 +81,19 @@ None
 ### Lexicon
 The Lexicon structure is as follows
 
-| Phoneme       | Grapheme      |
+| Source       | Target      |
 | ------------- | ------------- |
 | 0             | Efes          |
 | את            | et            |
 
-The is no need for headers but they can be added
+There is no need for headers but they can be added.
 
 The lexicon must be in CSV format
 
 ### Converting
-First load the Lexicon in CSV format and the text file for conversion
-Once both are loaded a "Save" button will appear
-Save the converted file
+First load the Lexicon in CSV format and the text file for conversion.
+Once both are loaded a "Save" button will appear.
+Save the converted file.
 
 
 
@@ -102,9 +102,10 @@ Save the converted file
 <!-- CONTRIBUTING -->
 ## Authers & Contributers
 
-* Dr. Silber-Varod Vered
-* Amit Dafna
 * Carmi Nehoray
+* Dr. Silber-Varod Vered
+* Amit Daphna
+
 
 
 <!-- LICENSE -->
