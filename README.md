@@ -89,8 +89,8 @@ The Lexicon structure is as follows
 There is no need for headers but they can be added.
 
 Note: In case of missing words in the lexicon the GUI let you choose between 2 options:
-1 missing - Replace the missing word with "Missing"
-2 Source - leave the missing word as it appears in the text file
+* Missing - Replace the missing word with "Missing"
+* Source - Leave the missing word as it appears in the text file
 
 The lexicon must be in CSV format
 
