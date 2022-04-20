@@ -148,11 +148,11 @@ saveButton = Button(buttonFrame, text="Save", command=saveFile)
 saveButton.pack(side=LEFT)
 saveButton.pack_forget()
 
-img = ImageTk.PhotoImage(Image.open(resource_path("src/Logo.png")))
+img = ImageTk.PhotoImage(Image.open(resource_path("../img/Logo.png")))
 panel = Label(root, image = img)
 panel.pack(side = "bottom", fill = "both", expand = "yes")
 
-img2 = ImageTk.PhotoImage(Image.open(resource_path("src/ganan.png")))
+img2 = ImageTk.PhotoImage(Image.open(resource_path("../img/ganan.png")))
 panel2 = Label(root, image = img2)
 panel2.pack(side = "bottom", fill = "both", expand = "yes")
 
